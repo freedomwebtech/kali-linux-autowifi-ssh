@@ -1,0 +1,12 @@
+
+
+allow-hotplug wlan0
+auto wlan0
+
+                iface wlan0 inet static
+                wpa-ssid "Raspberry"
+                wpa-psk "freedomtech"
+                address 192.168.0.12
+                netmask 255.255.255.0
+                gateway 192.168.0.1
+                
